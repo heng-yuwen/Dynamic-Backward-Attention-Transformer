@@ -9,7 +9,7 @@ conda env create -f environment.yml
 Or, if you prefer using docker, please pull our prepared image:
 
 ```
-docker pull 123mutouren/cv:1.0.0
+removed due to anonymous
 ```
 
 ## Local Material Dataset
