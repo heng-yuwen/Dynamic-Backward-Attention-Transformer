@@ -18,6 +18,7 @@ Please download the original dataset from https://vision.ist.i.kyoto-u.ac.jp/cod
 ## Train DBAT
 To train our DBAT, you can use the code below:
 ```
+mkdir checkpoints
 python train_sota.py --data-root "./datasets" --batch-size 4 --tag dpglt --gpus 1 --num-nodes 1 --epochs 200 --mode 95 --seed 42
 ```
 To test the trained model, you can specify the checkpoint path with the --test option
