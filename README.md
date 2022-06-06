@@ -16,7 +16,7 @@ docker pull 123mutouren/cv:1.0.0
 Please download the original dataset from https://vision.ist.i.kyoto-u.ac.jp/codeanddata/localmatdb/, into the folder datasets/localmatdb. Then you can zip the folder localmatdb since our dataloader assumes the images are zipped.
 
 ## Pre-trained DBAT checkpoint
-Please download the pre-trained checkpoints[url:https://drive.google.com/file/d/1DCyF1FUJPlEm0Mb5QTz2afnlbzYmPhMY/view?usp=sharing] into the folder "checkpoints"
+Please download the pre-trained [checkpoints](https://drive.google.com/file/d/1DCyF1FUJPlEm0Mb5QTz2afnlbzYmPhMY/view?usp=sharing) into the folder "checkpoints"
 ```
 mkdir -p checkpoints/dpglt_mode95/accuracy
 ```
