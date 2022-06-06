@@ -13,14 +13,14 @@ docker pull 123mutouren/cv:1.0.0
 ```
 
 ## Local Material Dataset
-Please download the original dataset from https://vision.ist.i.kyoto-u.ac.jp/codeanddata/localmatdb/, into the folder dataset/localmatdb. Then you can zip the folder localmatdb since our dataloader assumes the images are zipped.
+Please download the original dataset from https://vision.ist.i.kyoto-u.ac.jp/codeanddata/localmatdb/, into the folder datasets/localmatdb. Then you can zip the folder localmatdb since our dataloader assumes the images are zipped.
 
 ## Train DBAT
 To train our DBAT, you can use the code below:
 ```
-python train_sota.py --data-root "./dataset" --batch-size 4 --tag dpglt --gpus 1 --num-nodes 1 --epochs 200 --mode 95 --seed 42
+python train_sota.py --data-root "./datasets" --batch-size 4 --tag dpglt --gpus 1 --num-nodes 1 --epochs 200 --mode 95 --seed 42
 ```
 To test the trained model, you can specify the checkpoint path with the --test option
 ```
-python train_sota.py --data-root "./dataset" --batch-size 4 --tag dpglt --gpus 1 --num-nodes 1 --epochs 200 --mode 95 --seed 42 --test accuracy/epoch\=126-valid_acc_epoch\=0.87.ckpt
+python train_sota.py --data-root "./datasets" --batch-size 4 --tag dpglt --gpus 1 --num-nodes 1 --epochs 200 --mode 95 --seed 42 --test accuracy/epoch\=126-valid_acc_epoch\=0.87.ckpt
 ```
