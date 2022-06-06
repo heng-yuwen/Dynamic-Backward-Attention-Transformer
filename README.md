@@ -13,5 +13,6 @@ docker pull 123mutouren/cv:1.0.0
 ```
 
 ## Local Material Dataset
-Please download the original dataset from https://vision.ist.i.kyoto-u.ac.jp/codeanddata/localmatdb/
-Then you can zip the downloaded images together with our splits in dataset/localmatdb
+Please download the original dataset from https://vision.ist.i.kyoto-u.ac.jp/codeanddata/localmatdb/, into the folder dataset/localmatdb. Then you can zip the folder localmatdb since our dataloader assumes the images are zipped.
+
+
