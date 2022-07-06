@@ -22,7 +22,7 @@ sudo DOCKER_BUILDKIT=1 docker build -t dbat:1.0.0 -f Dockerfile .
 Please download the original dataset from https://vision.ist.i.kyoto-u.ac.jp/codeanddata/localmatdb/, into the folder datasets/localmatdb. Then you can zip the folder localmatdb since our dataloader assumes the images are zipped.
 
 ## Pre-trained DBAT checkpoint
-Please download the pre-trained [checkpoints](????) into the folder "checkpoints"
+Please download the pre-trained [checkpoints](https://drive.google.com/file/d/1ov6ol7A4NU8chlT3oEwx-V51gbOU7GGD/view?usp=sharing) into the folder "checkpoints"
 ```
 mkdir -p checkpoints/dpglt_mode95/accuracy
 ```
