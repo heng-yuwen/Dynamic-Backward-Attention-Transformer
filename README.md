@@ -1,15 +1,21 @@
 # Dynamic-Backward-Attention-Transformer
 This is the official repository of the paper "Enhancing Material Features Using Dynamic Backward Attention on Cross-Resolution Patches".
 
+To avoid leaking information, the code is hosted on anonymous.4open.science, which does not support clone nor download the whole project. Please view the code online. The main code is at torchtools/models/dpglt/dpglt_single_branch.py
+
+If you want to try the code, please read the following guidance.
+
+## Environment
+
 To install the dependencies, please refer to the conda env file (modify the name and prefix first).
 ```
 conda env create -f environment.yml
 ```
 
-Or, if you prefer using docker, please pull our prepared image:
+Or, if you prefer using docker, you can build the environment with the Dockerfile in this project:
 
 ```
-removed due to anonymous
+sudo DOCKER_BUILDKIT=1 docker build -t dbat:1.0.0 -f Dockerfile . 
 ```
 
 ## Local Material Dataset
